@@ -399,3 +399,10 @@ a:focus {
     border-radius: 10px;
     background: #dddddd;
 }
+
+.about .progress .progress-bar {
+    width: 0px;
+    background: #ef233c;
+    border-radius: 10px;
+    transform: 3s;
+}
