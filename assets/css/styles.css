@@ -555,12 +555,9 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0 15x 0;
-    background: #000;
-    color: white;
 }
 
 .service .service-item {
-    color: red;
     position: relative;
     margin-bottom: 30px;
     display: flex;
@@ -571,7 +568,7 @@ a:focus {
 
 .service .service-item:hover {
     /*  */
-    box-shadow: inset 800px 0 0 0 rgb(226, 230, 20);
+    box-shadow: inset 800px 0 0 0 #EF233C rgb(226, 230, 20);
 }
 
 .service .service-icon {
@@ -581,8 +578,7 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: #EF233C;
-    border: 1px solid #EF233C;
+    border: 1px solid rgb(226, 230, 20);
     background: #ffff;
 }
 
