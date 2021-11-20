@@ -406,3 +406,40 @@ a:focus {
     border-radius: 10px;
     transform: 3s;
 }
+
+.about .about-content a.btn {
+    margin-top: 15px;
+    background: yellow;
+}
+
+
+/* *****************
+*************media qury for this section is not done  *****
+*****************************************/
+
+.experiance {
+    color: red;
+    position: relative;
+    padding: 45px 0 15px 0;
+}
+
+.experiance .timeline {
+    position: relative;
+    width: 100%;
+}
+
+.experiance.timeline::after {
+    content: 'what f bro';
+    position: absolute;
+    width: 200px;
+    background: #000;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+}
+
+.experiance .timeline .timeline-item {
+    position: relative;
+    bginher
+}
