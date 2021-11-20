@@ -441,5 +441,107 @@ a:focus {
 
 .experiance .timeline .timeline-item {
     position: relative;
-    bginher
+    background: inherit;
+    width: 50%;
+    margin-bottom: 30px;
 }
+
+.experiance .timeline .timeline-item.left {
+    left: 0;
+    padding-right: 30px;
+    color: blue;
+}
+
+.experiance .timeline .timeline-item.right {
+    left: 0;
+    padding-right: 30px;
+    color: rgb(0, 195, 255);
+}
+
+.experiance .timeline .timeline-item::after {
+    content: "the content";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 48px;
+    right: -8px;
+    background: #ffffff;
+    border: 2px solid #EF233C;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.experiance .timeline .timeline-item.right::after {
+    left: -8px;
+}
+
+.experiance .timeline .timeline-item::before {
+    content: "The befor";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 46px;
+    right: 10px;
+    z-index: 1;
+    border: 10px solid;
+    border-color: transparent rgb(73, 226, 43);
+}
+
+.experiance .timeline .timeline-data {
+    position: absolute;
+    width: 100%;
+    top: 44px;
+    font-size: 160px;
+    font-weight: 600;
+    color: brown;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 1;
+}
+
+.experiance .timeline .timeline-item.timeline-item.left .timeline-date {
+    text-align: left;
+    left: 55px;
+    /* left: clac(100% + 55px) */
+}
+
+.experiance .timeline .timeline-item.right .timeline-date {
+    text-align: left;
+    left: 55px;
+    /* left: clac(100% + 55px) */
+}
+
+experiance .timeline .timeline-text {
+    padding: 30px;
+    background: #ffffff;
+    position: relative;
+    border-right: 5px solid #dddddd;
+    box-shadow: 0 0 60px rgb(0, 0, 0.08);
+}
+
+.experiance .timeline .timeline-item.right .timeline-text {
+    border-right: none;
+    border-left: 5px solid #dddddd;
+}
+
+.experiance .timeline .timeline-text h2 {
+    margin: 0 0 5px 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.experiance .timeline .timeline-text h4 {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.experiance .timeline .timeline-text p {
+    margin: 0;
+    font-size: 16px;
+}
+
+
+/* ********
+**********media qury for this section is not done ***** *****************************************/
