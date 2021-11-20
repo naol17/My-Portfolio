@@ -568,7 +568,7 @@ a:focus {
 
 .service .service-item:hover {
     /*  */
-    box-shadow: inset 800px 0 0 0 #EF233C rgb(226, 230, 20);
+    box-shadow: inset 800px 0 0 0 #EF233C;
 }
 
 .service .service-icon {
@@ -602,9 +602,9 @@ a:focus {
 
 .service .service-text h3 {
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
-    transition: 2s;
+    transition: 4s;
 }
 
 .service .service-item:hover .service-text h3,
