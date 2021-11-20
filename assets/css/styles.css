@@ -511,7 +511,7 @@ a:focus {
     /* left: clac(100% + 55px) */
 }
 
-experiance .timeline .timeline-text {
+.experiance .timeline .timeline-text {
     padding: 30px;
     background: #ffffff;
     position: relative;
@@ -545,3 +545,8 @@ experiance .timeline .timeline-text {
 
 /* ********
 **********media qury for this section is not done ***** *****************************************/
+
+
+/*******************************
+********* Service CSS *********
+*******************************/
