@@ -990,18 +990,9 @@ a:focus {
     transform: scale(1.2);
 }
 
-.team .team-item:hover .team-text,
 .team .team-item:hover .team-text h4,
 .team .team-item:hover .team-text p {
     color: #ffffff;
-}
-
-.team .team-item:hover .team-social a.btn {
-    background: #ffffff;
-}
-
-.team .team-item:hover .team-social a.btn:hover {
-    border-color: #ffffff;
 }
 
 
