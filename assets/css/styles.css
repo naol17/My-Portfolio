@@ -942,3 +942,77 @@ a:focus {
     width: 50%;
     padding: 0 20px;
 }
+
+.team .team-text h2 {
+    color: #EF233C;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    transition: 1s;
+}
+
+.team .team-text h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    transition: 1s;
+}
+
+.team .team-text p {
+    margin-bottom: 20px;
+    transition: 1s;
+}
+
+.team .team-social {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.team .team-social a.btn {
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: normal;
+    margin-right: 5px;
+}
+
+.team .team-item:hover {
+    box-shadow: inset 800 0 0 0 #ef233c;
+}
+
+.team .team-item:hover .team-img img {
+    transform: scale(1.2);
+}
+
+.team .team-item:hover .team-text,
+.team .team-item:hover .team-text h4,
+.team .team-item:hover .team-text p {
+    color: #ffffff;
+}
+
+.team .team-item:hover .team-social a.btn {
+    background: #ffffff;
+}
+
+.team .team-item:hover .team-social a.btn:hover {
+    border-color: #ffffff;
+}
+
+
+/* @media query is not done for team sectiom */
+
+
+/***********************
+    ******Contact style******
+    ************************/
+
+
+/***********************
+    ******Footer style******
+    ************************/
