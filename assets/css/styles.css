@@ -848,15 +848,23 @@ a:focus {
     padding: 45px 0 15px 0;
 }
 
-.portifolio #portfolio-filter li {
+.portfolio #portfolio-filter {
+    padding: 0;
+    margin: -15px 0 25px 0;
+    list-style: none;
+    font-size: 0;
+    text-align: center;
+}
+
+.portfolio #portfolio-filter li {
     cursor: pointer;
     display: inline-block;
     margin: 5px;
     padding: 6px 12px;
+    margin-top: 3rem;
     font-size: 14px;
     font-weight: 600;
     color: gold;
-    background: #000;
     border: 2px solid transparent;
     border-radius: 0;
     box-shadow: inset 0 0 0 50px #ef233c;
